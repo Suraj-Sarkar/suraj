@@ -1,0 +1,47 @@
+{
+    margin:0;
+    padding:0;
+
+}
+body{
+    background-image:url(imagee/banner.png);
+    background-color:green;
+    
+}
+.main{
+    
+      width: 1000px;
+      margin:auto;
+      border: 1px solid green;
+      display: flex;
+      justify-content: end;
+}
+.main1{
+     padding:10Px;
+     margin:10px;
+     border:1px solid red;
+     text-align: center;
+     text-decoration: none;
+}
+.nain1{
+    text-align: center;
+    text-decoration: none;
+}
+  .test{
+    display: flex;
+    text-items:center;
+    justify-content: center;
+      text-align: center;
+      font-size: 40px;
+      color:white;
+      text-decoration: none;
+  }
+  .para{
+      color:white;
+
+  }
+@media only screen and(min-width:200px)and(max-width747px){
+       width:100%;
+    .main{ flex-direction: column;
+
+}
